@@ -1,0 +1,488 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;  
+}
+
+h1#bio-header {
+    position:fixed;
+    top:200px;
+    left:100px;
+    text-indent:-9999px;
+    background-image:url(file:///Users/jackhollibaugh/Downloads/001_positioning_exercise/Web/Birthday%20massacre/Code/Imgs/BioWords.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    width:200px;
+    height:100px;
+    z-index:1000;
+}
+
+#main-logo {
+    position:fixed; 
+    top:50px;
+    left:0px;
+    width:200px;
+    height:200px;
+    z-index:500;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-gap: 20px;
+    padding: 20px
+    
+}
+.mainbunny {
+    width: 70%;
+    margin-left: 150px;
+}
+
+.navbar {
+    position: relative;
+    left:210px;
+    top:700px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+}
+
+.navbar ul li {
+    list-style: none; /*remove list style*/
+    display: inline;
+    padding-left: 30px;
+    padding-right: 25px;
+    
+}
+
+.navbar ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color:plum;
+}
+
+.navbar ul li a:hover {
+    color:lavender;
+    text-shadow: 1px 1px 4px ;
+}
+
+
+
+/*end of Home page, begining of Bio*/
+
+.icon{
+    height: 100px;
+    width: auto;
+    margin-left: 30px;
+    position:fixed;
+}
+
+.sidenav {
+  height: 30%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 150px;
+  margin-left: 25px;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: plum;
+    text-shadow: 1px 1px 4px #EC9EFF;
+ 
+}
+
+.bio {
+    width: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,200px);
+    grid-gap: 20px;
+    padding: 20px;
+    
+  
+}
+
+.grid-container > div {
+    
+    color:white;
+   
+    
+}
+
+.box01{
+    width:500px;
+}
+.box02{
+    width:500px;
+    padding-left: 50px;
+}
+.bio_text {
+    font-family: sans-serif;
+    font-kerning:auto;
+    font-weight: 100; 
+    font-size: 15px;
+    margin-top: 50px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+
+.bio_text2 {
+    font-family: sans-serif;
+    font-kerning:auto;
+    font-weight: 100; 
+    font-size: 15px;
+    margin-top: 50px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+    
+
+.bionav {
+    position: fixed;
+    width: 100px;
+    
+}
+
+.bionav ul li {
+    list-style: none; /*remove list style*/
+    display: inline;
+    padding-left: 0px;
+    padding-right: 25px;
+}
+
+.bionav ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    color:plum;
+    
+}
+
+.bionav ul li a:hover {
+    color:lavender;
+}
+
+h1{
+    font-family: serif;
+    font-weight: 100;
+    margin-top: 120px;
+    font-size: 70px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+   
+   
+}
+
+.The_Band {
+    height:160%;
+    width:95%;
+    margin-left: 10px;
+    margin-top: 250px;
+}
+
+h2{
+    font-family: serif;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+}
+h3{
+    font-family: serif;
+    font-weight: 100;
+    margin-left:30px;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+}
+
+h4{
+    font-family: serif;
+    font-weight: 100;
+    margin-top: 150px;
+   margin-left: 150px;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+}
+
+h5{
+    font-family: serif;
+    font-weight: 100;
+    margin-top: 350px;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+    margin-left: 150px;
+        
+    }
+
+.imagica{
+    height:150%;
+    margin-top:15px;
+}
+
+.imagicasubtext{
+    font-family: sans-serif;
+    font-kerning:auto;
+    font-weight: 100; 
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+.bio_chibi {
+    font-family: sans-serif;
+    font-kerning:auto;
+    font-weight: 100; 
+    font-size: 15px;
+    margin-top: 50px;
+    line-height: 1.7;
+    letter-spacing: 1.3px;
+}
+    
+.Chibi {
+    height:250%;
+    margin-left: 50px;
+  
+}
+
+.Rainbow{
+     height:230%;
+    margin-left: 60px;
+    
+}
+
+.rainbow_bio{
+   font-family: sans-serif;
+    font-kerning:auto;
+    font-weight: 100; 
+    font-size: 15px;
+    margin-top: 75px;
+    line-height: 1.7;
+    letter-spacing: 1.3px;
+}
+
+.rhimtitle{
+    font-family: serif;
+    font-weight: 100;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+}
+.rhim{ 
+    height:200%;
+    margin-left: 50px;
+    margin-top: 90px;
+    
+}
+
+.rhim_bio{
+    font-family: sans-serif;
+    font-kerning:auto;
+    font-weight: 100; 
+    font-size: 15px;
+    margin-top: 78px;
+    line-height: 1.7;
+    letter-spacing: 1.3px;
+}
+
+.falcoretitle{
+   font-family: serif;
+    font-weight: 100;
+    margin-top: 120px;
+    margin-left: 100px;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+}
+.Falcore{
+    height:250%;
+    margin-left: 50px;
+}
+
+.falcore_bio {
+    font-family: sans-serif;
+    font-kerning:auto;
+    font-weight: 100; 
+    font-size: 15px;
+    margin-top: 75px;
+    line-height: 1.7;
+    letter-spacing: 1.3px;}
+
+.textOverImage{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/*End of BIO start of Performances*/
+
+/*Slideshow css can be found in slideshow.css*/
+
+.perf_title{
+     font-family: serif;
+    font-weight: 100;
+    margin-top: 120px;
+    font-size: 70px;
+    text-shadow: 2px 1px 4px #EC9EFF;
+    color: plum;
+     margin-left: 260px;
+    
+}
+
+
+.purple{
+    width:30%;
+    height: 30%;
+    margin-top: 540px;
+    margin-left: 350px;
+}
+
+.nov10{
+     font-family: serif;
+    font-weight: 100;
+    margin-top: 550px;
+    font-size: 24px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+   margin-left: 100px;
+}
+
+.Manch{
+     font-family: serif;
+    font-weight: 100;
+    margin-top: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+   margin-left: 100px;
+}
+
+.Lex{
+     font-family: serif;
+    font-weight: 100;
+    margin-top: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+   margin-left: 100px;
+}
+.nov9{
+     font-family: serif;
+    font-weight: 100;
+    margin-top: 100px;
+    font-size: 24px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+   margin-left: 100px;
+}
+
+.topcats{
+     font-family: serif;
+    font-weight: 100;
+    margin-top: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+   margin-left: 100px;
+}
+
+.Cin{
+     font-family: serif;
+    font-weight: 100;
+    margin-top: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+   margin-left: 100px;
+}
+
+.nov8{
+     font-family: serif;
+    font-weight: 100;
+    margin-top: 100px;
+    font-size: 24px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+   margin-left: 100px;
+}
+
+.machine{
+     font-family: serif;
+    font-weight: 100;
+    margin-top: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+   margin-left: 100px;
+}
+
+.Cin{
+     font-family: serif;
+    font-weight: 100;
+    margin-top: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px #EC9EFF;
+    color: plum;
+   margin-left: 100px;
+}
+
+.container2{
+    position: absolute;
+    float:right;
+    left: 900px;
+    top:200px;
+    
+}
+
+
+
+/*End of Performances start of Listen*/
+.lis01{
+    width:500px;
+}
+.lis02{
+    width:500px;
+    padding-left: 50px;
+}
+.album1{
+ 
+    Width:40%;
+    height: auto;
+    Top: 5000px;
+}
+.album1txt{
+   margin-top: 1000px;
+}
